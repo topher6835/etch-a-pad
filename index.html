@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Etchpad</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="sketchpad.js"></script>
+</head>
+<body>
+	<h1> Etch-A-Sketch </h1>
+	<div class="buttons">
+		<div class="centeredbuttons">
+
+			<input type="button" value="Pointer" onclick="mouseHover();" />
+
+			<input type="button" value="Trail" onclick="trails();" />
+
+			<input type="button" value="Etch" onclick="draw();" />
+
+			<input type="button" value="Rainbow" onclick="addcolor();" />
+
+			<input type="button" value="Change Size" onclick="sizeIn();" />
+
+			<input type="button" value="Reset" onclick="reset();" />
+
+		</div>
+	</div>
+	<div class="container">
+		<div class="knobL"></div>
+		<div class="screen"></div>
+		<div class="knobR"></div>
+	</div>
+
+</body>
+</html>

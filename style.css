@@ -1,0 +1,57 @@
+body{
+	background-color: #9B0000;
+}
+
+h1{
+	text-align: center;
+	color: #F0BE64;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+.container{
+	width: 850px;
+	margin: 0px auto;
+}
+.knobL{
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	border-radius: 100px;
+	float: left;
+	margin-top: 520px;
+}
+.knobR{
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	border-radius: 100px;
+	float: left;
+	margin-top: 520px;
+}
+.screen{
+	margin: 20px 25px 20px 25px;
+	width: 600px;
+	height: 600px;
+	background-color: black;
+	float: left;
+}
+
+.square{
+	background-color: #CCCCCC;
+	float: left;
+}
+
+.hover{
+	background-color: white;
+}
+
+.buttons{
+	margin: 10px auto;
+	width: 950px;
+	height: 10px;
+}
+
+.centeredbuttons{
+	text-align: center;
+	margin-bottom: 10px;
+	}
